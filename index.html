@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>survey</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       
+        <header>HealthPro Survey</header>
+      
+        <h4>Hello!</h4>
+        <p>This is a survey for a project on medical app known as <q>HealthPro</q>.</p>
+        <p>We'll like to know your thoughts.</p>
+        <p>Kindly fill the form, thank you!!!</p>
+        
+        <form action="/action_page.php">
+         <div class="form age">
+         <h3>Age Range</h3>
+            <input type="checkbox" id="age" value="age" name="agenumber">
+             <label for="age">16-20</label><br><br>
+             <input type="checkbox" id="age1" value="age" name="agenumber">
+             <label for="age1">21-30</label><br><br>
+             <input type="checkbox" id="age2" value="age" name="agenumber">
+             <label for="age2">31-40</label><br><br>
+             <input type="checkbox" id="age3" value="age" name="agenumber">
+             <label for="age3">41-above</label><br><br>
+         </div>
+        <div class="form state">
+            <h3>Location(state)</h3>
+            <label for="state">Choose state:</label>
+            <select dropdown id="state" name="NigerStates" size="1" required>
+                <option value="Delta">Delta</option>
+                <option value="Edo">Edo</option>
+                <option value="Ekiti">Ekiti</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Ogun">Ogun</option>
+                <option value="Ondo">Ondo</option>
+                <option value="Osun">Osun</option>
+                <option value="Oyo">Oyo</option>
+               </select>
+        </div>
+        <div class="form occupation">
+            <h3>Occupation</h3>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form occupation1">
+            <p>kindly select the category that applies to you</p><br>
+            <input type="radio" id="job1" name="job" value="Doctor">
+            <label for="job1">Doctor</label><br>
+            <input type="radio" id="job2" name="job" value="Nurse">
+            <label for="job2">Nurse</label><br>
+            <input type="radio" id="job3" name="job" value="nonmedic">
+            <label for="job3">Non medic</label><br>
+            <input type="radio" id="job4" name="job" value="other">
+            <label for="job4">Other medical Professional</label>
+        </div>
+        <div class="form others">
+            <p>if others, indicate</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>how often do you require health services </p>
+            <input type="radio" id="veryoften" name="health" value="veryoften">
+            <label for="veryoften">Very Often(2-4 weeks)</label><br>
+            <input type="radio" id="quite" name="health" value="quiteoften">
+            <label for="quite">Quite often(2-3months)</label><br>
+            <input type="radio" id="few" name="health" value="fewtimes">
+            <label for="few">Very few times(2-3times/year)</label><br>
+            <input type="radio" id="never" name="health" value="neverEver">
+            <label for="never">Never</label>
+        </div>
+        <div class="form">
+            <p>Have you ever found it hard to locate and use health services?</p>
+            <input type="radio" id="yes1" name="true" value="true">
+            <label for="yes1">Yes</label><br>
+            <input type="radio" id="no1" name="false" value="false">
+            <label for="no1">No</label>
+        </div>
+        <div class="form">
+            <p>Have you ever being held up by a long queue at a hospital?</p>
+            <input type="radio" id="yes2" name="true" value="true">
+            <label for="yes2">Yes</label><br>
+            <input type="radio" id="no2" name="false" value="false">
+            <label for="no2">No</label>
+        </div>
+        <div class="form">
+            <p>Have you ever been delayed by a slow hospital staff?</p>
+            <input type="radio" id="yes3" name="true" value="true">
+            <label for="yes3">Yes</label><br>
+            <input type="radio" id="no3" name="false" value="false">
+            <label for="no3">No</label>
+        </div>
+        <div class="form">
+            <p>Have you ever required ambulance services?</p>
+            <input type="radio" id="yes4" name="true" value="true">
+            <label for="yes4">Yes</label><br>
+            <input type="radio" id="no4" name="false" value="false">
+            <label for="no4">No</label>
+        </div>
+        <div class="form">
+            <p>What others probems have you had with acquiring health services?</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>Have you used a health realted app to get health services?</p>
+            <input type="radio" id="yes5" name="true" value="true">
+            <label for="yes5">Yes</label><br>
+            <input type="radio" id="no5" name="false" value="false">
+            <label for="no5">No</label>
+        </div>
+        <div class="form">
+            <p>If yes, what is the name of the app?</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>Have you ever shopped online drugs and other pharmaceutical products?</p>
+            <input type="radio" id="yes6" name="true" value="true">
+            <label for="yes6">Yes</label><br>
+            <input type="radio" id="no6" name="false" value="false">
+            <label for="no6">No</label>
+        </div>
+        <div class="form">
+            <p>If yes, kindly indicate where</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>Would you prefer shooping online than going to a physival store?</p>
+            <input type="radio" id="yes7" name="true" value="true">
+            <label for="yes7">Yes</label><br>
+            <input type="radio" id="no7" name="false" value="false">
+            <label for="no7">No</label><br>
+            <input type="radio" id="maybe" name="maybe" value="maybe">
+            <label for="maybe">Maybe</label>
+        </div>
+        <div class="form">
+            <p>please kindly state your reason for your answer?</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>(FOR MEDICS ONLY) Are you interested in a product that enables you to chat with patients and give them appointments for physical consultations?</p>
+            <input type="radio" id="yes8" name="true" value="true">
+            <label for="yes8">Yes</label><br>
+            <input type="radio" id="no8" name="false" value="false">
+            <label for="no8">No</label>
+        </div>
+        <div class="form">
+            <p>if yes, please stste reason for your answe</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>if no, please state reason for your answer</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="form">
+            <p>Any advice or questions?</p>
+            <input type="text" placeholder="your answer">
+        </div>
+        <div class="submit">
+        <button type="submit">Submit</button>
+           <h5>Clear Form</h5>
+        </div>
+        
+        </form>
+    </body>
+</html>
